@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72954AE150318D378E7A480B /* Pods_Dron_e.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D83D46C44FB5B50B7396615B /* Pods_Dron_e.framework */; };
+		F23DB15A1E97F5AB00A3643B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23DB1591E97F5AB00A3643B /* RegisterViewController.swift */; };
+		F23DB15C1E97F94B00A3643B /* DescripcionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23DB15B1E97F94B00A3643B /* DescripcionViewController.swift */; };
+		F23DB15E1E983B1100A3643B /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23DB15D1E983B1100A3643B /* DesignableView.swift */; };
 		F2BB9A3E1E972EA1007180F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BB9A3D1E972EA1007180F1 /* AppDelegate.swift */; };
-		F2BB9A401E972EA1007180F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BB9A3F1E972EA1007180F1 /* ViewController.swift */; };
+		F2BB9A401E972EA1007180F1 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BB9A3F1E972EA1007180F1 /* IntroViewController.swift */; };
 		F2BB9A431E972EA1007180F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2BB9A411E972EA1007180F1 /* Main.storyboard */; };
 		F2BB9A451E972EA1007180F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2BB9A441E972EA1007180F1 /* Assets.xcassets */; };
 		F2BB9A481E972EA1007180F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2BB9A461E972EA1007180F1 /* LaunchScreen.storyboard */; };
+		F2BB9A511E973FE4007180F1 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BB9A501E973FE4007180F1 /* DesignableButton.swift */; };
+		F2BB9A541E974474007180F1 /* IntroDron-e.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F2BB9A531E974474007180F1 /* IntroDron-e.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BEF57A3309389F6A616EC135 /* Pods-Dron e.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dron e.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dron e/Pods-Dron e.debug.xcconfig"; sourceTree = "<group>"; };
+		C79DFCEC1AE70A3E12D38BE3 /* Pods-Dron e.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dron e.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dron e/Pods-Dron e.release.xcconfig"; sourceTree = "<group>"; };
+		D83D46C44FB5B50B7396615B /* Pods_Dron_e.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dron_e.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F23DB1591E97F5AB00A3643B /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		F23DB15B1E97F94B00A3643B /* DescripcionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescripcionViewController.swift; sourceTree = "<group>"; };
+		F23DB15D1E983B1100A3643B /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
 		F2BB9A3A1E972EA1007180F1 /* Dron e.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dron e.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2BB9A3D1E972EA1007180F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F2BB9A3F1E972EA1007180F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2BB9A3F1E972EA1007180F1 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		F2BB9A421E972EA1007180F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2BB9A441E972EA1007180F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2BB9A471E972EA1007180F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2BB9A491E972EA1007180F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2BB9A501E973FE4007180F1 /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
+		F2BB9A531E974474007180F1 /* IntroDron-e.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IntroDron-e.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72954AE150318D378E7A480B /* Pods_Dron_e.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42EC5DF6AC15705421C08341 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BEF57A3309389F6A616EC135 /* Pods-Dron e.debug.xcconfig */,
+				C79DFCEC1AE70A3E12D38BE3 /* Pods-Dron e.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4E6CB236A571456383B76BFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D83D46C44FB5B50B7396615B /* Pods_Dron_e.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F2BB9A311E972EA1007180F1 = {
 			isa = PBXGroup;
 			children = (
 				F2BB9A3C1E972EA1007180F1 /* Dron e */,
 				F2BB9A3B1E972EA1007180F1 /* Products */,
+				42EC5DF6AC15705421C08341 /* Pods */,
+				4E6CB236A571456383B76BFB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +88,27 @@
 		F2BB9A3C1E972EA1007180F1 /* Dron e */ = {
 			isa = PBXGroup;
 			children = (
+				F2BB9A531E974474007180F1 /* IntroDron-e.mp4 */,
+				F2BB9A4F1E973F75007180F1 /* Designables */,
 				F2BB9A3D1E972EA1007180F1 /* AppDelegate.swift */,
-				F2BB9A3F1E972EA1007180F1 /* ViewController.swift */,
+				F2BB9A3F1E972EA1007180F1 /* IntroViewController.swift */,
 				F2BB9A411E972EA1007180F1 /* Main.storyboard */,
 				F2BB9A441E972EA1007180F1 /* Assets.xcassets */,
 				F2BB9A461E972EA1007180F1 /* LaunchScreen.storyboard */,
 				F2BB9A491E972EA1007180F1 /* Info.plist */,
+				F23DB1591E97F5AB00A3643B /* RegisterViewController.swift */,
+				F23DB15B1E97F94B00A3643B /* DescripcionViewController.swift */,
 			);
 			path = "Dron e";
+			sourceTree = "<group>";
+		};
+		F2BB9A4F1E973F75007180F1 /* Designables */ = {
+			isa = PBXGroup;
+			children = (
+				F2BB9A501E973FE4007180F1 /* DesignableButton.swift */,
+				F23DB15D1E983B1100A3643B /* DesignableView.swift */,
+			);
+			name = Designables;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +118,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2BB9A4C1E972EA1007180F1 /* Build configuration list for PBXNativeTarget "Dron e" */;
 			buildPhases = (
+				97FD7758B177A48ED4AE96A2 /* [CP] Check Pods Manifest.lock */,
 				F2BB9A361E972EA1007180F1 /* Sources */,
 				F2BB9A371E972EA1007180F1 /* Frameworks */,
 				F2BB9A381E972EA1007180F1 /* Resources */,
+				2BD89B81E11BB190CA685D59 /* [CP] Embed Pods Frameworks */,
+				405D94F1143B12B0EB4B8469 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,18 +177,71 @@
 				F2BB9A481E972EA1007180F1 /* LaunchScreen.storyboard in Resources */,
 				F2BB9A451E972EA1007180F1 /* Assets.xcassets in Resources */,
 				F2BB9A431E972EA1007180F1 /* Main.storyboard in Resources */,
+				F2BB9A541E974474007180F1 /* IntroDron-e.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2BD89B81E11BB190CA685D59 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dron e/Pods-Dron e-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		405D94F1143B12B0EB4B8469 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dron e/Pods-Dron e-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97FD7758B177A48ED4AE96A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F2BB9A361E972EA1007180F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2BB9A401E972EA1007180F1 /* ViewController.swift in Sources */,
+				F2BB9A401E972EA1007180F1 /* IntroViewController.swift in Sources */,
+				F23DB15C1E97F94B00A3643B /* DescripcionViewController.swift in Sources */,
+				F23DB15E1E983B1100A3643B /* DesignableView.swift in Sources */,
 				F2BB9A3E1E972EA1007180F1 /* AppDelegate.swift in Sources */,
+				F2BB9A511E973FE4007180F1 /* DesignableButton.swift in Sources */,
+				F23DB15A1E97F5AB00A3643B /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +362,7 @@
 		};
 		F2BB9A4D1E972EA1007180F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEF57A3309389F6A616EC135 /* Pods-Dron e.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8ZAXN7VW46;
@@ -272,6 +376,7 @@
 		};
 		F2BB9A4E1E972EA1007180F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C79DFCEC1AE70A3E12D38BE3 /* Pods-Dron e.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8ZAXN7VW46;
@@ -302,6 +407,7 @@
 				F2BB9A4E1E972EA1007180F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
