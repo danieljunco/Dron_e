@@ -8,5 +8,7 @@ target 'Dron e' do
   # Pods for Dron e
 
 pod 'AFNetworking','~>3.0'
+pod 'Firebase/Core'
+pod 'Firebase/Auth'
 
 end

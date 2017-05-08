@@ -8,6 +8,7 @@
 
 import UIKit
 import AFNetworking
+import Firebase
 
 //Aca se pone la direccion IP de la MTC
 var baseURL: URL = URL(string: "http://172.16.176.135:4000")!
@@ -21,6 +22,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         UINavigationBar.appearance().isHidden = true
+        application.statusBarStyle = .lightContent
+        FIRApp.configure()
         return true
     }
 

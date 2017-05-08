@@ -8,9 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		72954AE150318D378E7A480B /* Pods_Dron_e.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D83D46C44FB5B50B7396615B /* Pods_Dron_e.framework */; };
+		F23AECB31EBA39B20084794A /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23AECB21EBA39B20084794A /* DesignableTextField.swift */; };
+		F23AECB71EBA62C50084794A /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23AECB61EBA62C50084794A /* GlobalVariables.swift */; };
+		F23AECBF1EBA838F0084794A /* DronViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23AECBE1EBA838F0084794A /* DronViewController.swift */; };
 		F23DB15A1E97F5AB00A3643B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23DB1591E97F5AB00A3643B /* RegisterViewController.swift */; };
 		F23DB15C1E97F94B00A3643B /* DescripcionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23DB15B1E97F94B00A3643B /* DescripcionViewController.swift */; };
 		F23DB15E1E983B1100A3643B /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23DB15D1E983B1100A3643B /* DesignableView.swift */; };
+		F294A9881EBA3642000DC17C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F294A9871EBA3642000DC17C /* GoogleService-Info.plist */; };
 		F2BB9A3E1E972EA1007180F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BB9A3D1E972EA1007180F1 /* AppDelegate.swift */; };
 		F2BB9A401E972EA1007180F1 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BB9A3F1E972EA1007180F1 /* IntroViewController.swift */; };
 		F2BB9A431E972EA1007180F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2BB9A411E972EA1007180F1 /* Main.storyboard */; };
@@ -24,9 +28,13 @@
 		BEF57A3309389F6A616EC135 /* Pods-Dron e.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dron e.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dron e/Pods-Dron e.debug.xcconfig"; sourceTree = "<group>"; };
 		C79DFCEC1AE70A3E12D38BE3 /* Pods-Dron e.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dron e.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dron e/Pods-Dron e.release.xcconfig"; sourceTree = "<group>"; };
 		D83D46C44FB5B50B7396615B /* Pods_Dron_e.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dron_e.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F23AECB21EBA39B20084794A /* DesignableTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DesignableTextField.swift; path = "../../../Proyecto/Alleé/Alleé/DesignableTextField.swift"; sourceTree = "<group>"; };
+		F23AECB61EBA62C50084794A /* GlobalVariables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GlobalVariables.swift; path = "../../../Proyecto/Alleé/Alleé/GlobalVariables.swift"; sourceTree = "<group>"; };
+		F23AECBE1EBA838F0084794A /* DronViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DronViewController.swift; sourceTree = "<group>"; };
 		F23DB1591E97F5AB00A3643B /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		F23DB15B1E97F94B00A3643B /* DescripcionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescripcionViewController.swift; sourceTree = "<group>"; };
 		F23DB15D1E983B1100A3643B /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		F294A9871EBA3642000DC17C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F2BB9A3A1E972EA1007180F1 /* Dron e.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dron e.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2BB9A3D1E972EA1007180F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2BB9A3F1E972EA1007180F1 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +75,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F23E8F291EBB73F500F88273 /* entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = entities;
+			sourceTree = "<group>";
+		};
 		F2BB9A311E972EA1007180F1 = {
 			isa = PBXGroup;
 			children = (
@@ -88,7 +103,9 @@
 		F2BB9A3C1E972EA1007180F1 /* Dron e */ = {
 			isa = PBXGroup;
 			children = (
+				F23E8F291EBB73F500F88273 /* entities */,
 				F2BB9A531E974474007180F1 /* IntroDron-e.mp4 */,
+				F23AECB61EBA62C50084794A /* GlobalVariables.swift */,
 				F2BB9A4F1E973F75007180F1 /* Designables */,
 				F2BB9A3D1E972EA1007180F1 /* AppDelegate.swift */,
 				F2BB9A3F1E972EA1007180F1 /* IntroViewController.swift */,
@@ -98,6 +115,8 @@
 				F2BB9A491E972EA1007180F1 /* Info.plist */,
 				F23DB1591E97F5AB00A3643B /* RegisterViewController.swift */,
 				F23DB15B1E97F94B00A3643B /* DescripcionViewController.swift */,
+				F294A9871EBA3642000DC17C /* GoogleService-Info.plist */,
+				F23AECBE1EBA838F0084794A /* DronViewController.swift */,
 			);
 			path = "Dron e";
 			sourceTree = "<group>";
@@ -106,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				F2BB9A501E973FE4007180F1 /* DesignableButton.swift */,
+				F23AECB21EBA39B20084794A /* DesignableTextField.swift */,
 				F23DB15D1E983B1100A3643B /* DesignableView.swift */,
 			);
 			name = Designables;
@@ -176,6 +196,7 @@
 			files = (
 				F2BB9A481E972EA1007180F1 /* LaunchScreen.storyboard in Resources */,
 				F2BB9A451E972EA1007180F1 /* Assets.xcassets in Resources */,
+				F294A9881EBA3642000DC17C /* GoogleService-Info.plist in Resources */,
 				F2BB9A431E972EA1007180F1 /* Main.storyboard in Resources */,
 				F2BB9A541E974474007180F1 /* IntroDron-e.mp4 in Resources */,
 			);
@@ -237,8 +258,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2BB9A401E972EA1007180F1 /* IntroViewController.swift in Sources */,
+				F23AECBF1EBA838F0084794A /* DronViewController.swift in Sources */,
 				F23DB15C1E97F94B00A3643B /* DescripcionViewController.swift in Sources */,
+				F23AECB71EBA62C50084794A /* GlobalVariables.swift in Sources */,
 				F23DB15E1E983B1100A3643B /* DesignableView.swift in Sources */,
+				F23AECB31EBA39B20084794A /* DesignableTextField.swift in Sources */,
 				F2BB9A3E1E972EA1007180F1 /* AppDelegate.swift in Sources */,
 				F2BB9A511E973FE4007180F1 /* DesignableButton.swift in Sources */,
 				F23DB15A1E97F5AB00A3643B /* RegisterViewController.swift in Sources */,

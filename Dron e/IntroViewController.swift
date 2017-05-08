@@ -55,6 +55,8 @@ class IntroViewController: UIViewController {
 
     @IBAction func registrarMTC(_ sender: Any) {
         
+        performSegue(withIdentifier: "GoToSignIn", sender: self)
+        /*
         let params: [String:Any] = [
             "application": [
                 "appId":"myApp3"
@@ -67,7 +69,7 @@ class IntroViewController: UIViewController {
             
         }, success: { (task:URLSessionDataTask, response) in
             let dictionaryResponse: NSDictionary = response! as! NSDictionary
-            
+            print(dictionaryResponse)
             let alertController = UIAlertController(title: "Aplicacion registrada", message: dictionaryResponse["msg"] as? String, preferredStyle: .alert)
             
             let volverAction = UIAlertAction(title: "Regresar", style: .default) { (action: UIAlertAction) in
@@ -79,6 +81,7 @@ class IntroViewController: UIViewController {
         }) { (task: URLSessionDataTask?, error: Error) in
             self.showAlert(title: "Error en la solicitud", message: error.localizedDescription, closeButtonTitle: "Cerrar")
         }
+        */
 
     }
     
