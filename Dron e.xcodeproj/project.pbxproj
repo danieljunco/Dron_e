@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		72954AE150318D378E7A480B /* Pods_Dron_e.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D83D46C44FB5B50B7396615B /* Pods_Dron_e.framework */; };
+		D0F4E7441EC3584D00039DB4 /* BandConnectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F4E7431EC3584D00039DB4 /* BandConnectionController.swift */; };
+		D0F4E7461EC35CF000039DB4 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F4E7451EC35CF000039DB4 /* MeViewController.swift */; };
+		D0F4E74A1EC36F0A00039DB4 /* HeartBeatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F4E7491EC36F0A00039DB4 /* HeartBeatController.swift */; };
+		D0F4E74C1EC3745200039DB4 /* RunningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F4E74B1EC3745200039DB4 /* RunningViewController.swift */; };
+		D0F4E74E1EC3755900039DB4 /* EnvironmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F4E74D1EC3755900039DB4 /* EnvironmentViewController.swift */; };
 		F23AECB31EBA39B20084794A /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23AECB21EBA39B20084794A /* DesignableTextField.swift */; };
 		F23AECB71EBA62C50084794A /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23AECB61EBA62C50084794A /* GlobalVariables.swift */; };
 		F23AECBF1EBA838F0084794A /* DronViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23AECBE1EBA838F0084794A /* DronViewController.swift */; };
@@ -27,6 +32,11 @@
 /* Begin PBXFileReference section */
 		BEF57A3309389F6A616EC135 /* Pods-Dron e.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dron e.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dron e/Pods-Dron e.debug.xcconfig"; sourceTree = "<group>"; };
 		C79DFCEC1AE70A3E12D38BE3 /* Pods-Dron e.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dron e.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dron e/Pods-Dron e.release.xcconfig"; sourceTree = "<group>"; };
+		D0F4E7431EC3584D00039DB4 /* BandConnectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BandConnectionController.swift; sourceTree = "<group>"; };
+		D0F4E7451EC35CF000039DB4 /* MeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
+		D0F4E7491EC36F0A00039DB4 /* HeartBeatController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartBeatController.swift; sourceTree = "<group>"; };
+		D0F4E74B1EC3745200039DB4 /* RunningViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunningViewController.swift; sourceTree = "<group>"; };
+		D0F4E74D1EC3755900039DB4 /* EnvironmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnvironmentViewController.swift; sourceTree = "<group>"; };
 		D83D46C44FB5B50B7396615B /* Pods_Dron_e.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dron_e.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F23AECB21EBA39B20084794A /* DesignableTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DesignableTextField.swift; path = "../../../Proyecto/Alleé/Alleé/DesignableTextField.swift"; sourceTree = "<group>"; };
 		F23AECB61EBA62C50084794A /* GlobalVariables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GlobalVariables.swift; path = "../../../Proyecto/Alleé/Alleé/GlobalVariables.swift"; sourceTree = "<group>"; };
@@ -117,6 +127,11 @@
 				F23DB15B1E97F94B00A3643B /* DescripcionViewController.swift */,
 				F294A9871EBA3642000DC17C /* GoogleService-Info.plist */,
 				F23AECBE1EBA838F0084794A /* DronViewController.swift */,
+				D0F4E7431EC3584D00039DB4 /* BandConnectionController.swift */,
+				D0F4E7451EC35CF000039DB4 /* MeViewController.swift */,
+				D0F4E7491EC36F0A00039DB4 /* HeartBeatController.swift */,
+				D0F4E74B1EC3745200039DB4 /* RunningViewController.swift */,
+				D0F4E74D1EC3755900039DB4 /* EnvironmentViewController.swift */,
 			);
 			path = "Dron e";
 			sourceTree = "<group>";
@@ -257,13 +272,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0F4E74C1EC3745200039DB4 /* RunningViewController.swift in Sources */,
+				D0F4E74A1EC36F0A00039DB4 /* HeartBeatController.swift in Sources */,
 				F2BB9A401E972EA1007180F1 /* IntroViewController.swift in Sources */,
+				D0F4E7461EC35CF000039DB4 /* MeViewController.swift in Sources */,
 				F23AECBF1EBA838F0084794A /* DronViewController.swift in Sources */,
 				F23DB15C1E97F94B00A3643B /* DescripcionViewController.swift in Sources */,
 				F23AECB71EBA62C50084794A /* GlobalVariables.swift in Sources */,
 				F23DB15E1E983B1100A3643B /* DesignableView.swift in Sources */,
 				F23AECB31EBA39B20084794A /* DesignableTextField.swift in Sources */,
+				D0F4E7441EC3584D00039DB4 /* BandConnectionController.swift in Sources */,
 				F2BB9A3E1E972EA1007180F1 /* AppDelegate.swift in Sources */,
+				D0F4E74E1EC3755900039DB4 /* EnvironmentViewController.swift in Sources */,
 				F2BB9A511E973FE4007180F1 /* DesignableButton.swift in Sources */,
 				F23DB15A1E97F5AB00A3643B /* RegisterViewController.swift in Sources */,
 			);
